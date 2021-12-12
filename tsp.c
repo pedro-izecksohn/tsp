@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 typedef struct Point
 {
@@ -128,6 +129,8 @@ double total_distance (PointsVector *pv)
 
 int main (int argc, char **argv)
 {
+  time_t t  = time (NULL);
+  srand (t);
   unsigned long int niterations = 1;
   if (argc==2)
   {
