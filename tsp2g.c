@@ -1,4 +1,4 @@
-/* tsp.c - Travelling Salesman Program.
+/* tsp2g.c - Travelling Salesman Program Second Generation.
    By: Pedro Izecksohn, izecksohn@yahoo.com
    License: 1) No warranty in given.
             2) You may use this and or modify this and or distribute this at your own risk.
